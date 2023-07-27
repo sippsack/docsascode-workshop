@@ -15,10 +15,19 @@ Next, in gitpod and Github Codespaces there will be a web based visual studio in
 
 Open this `README.adoc` and press `Ctrl+k` then `v` to activate the AsciiDoc preview.
 
+=== Part I: AsciiDoc, PlantUML and draw.io
 
 For the Docs-as-Code approach open xref:src/docs/docs-as-code.adoc[]
 
 For the Diagrams-as-Code approach open xref:src/docs/diagrams-as-code.adoc[] and start hacking.
+
+Further informations:
+
+https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Ascii Doc cheat sheet]
+
+https://kroki.io/[Kroki Server]
+
+https://plantuml.com/[PlantUML]
 
 '''
 
@@ -35,7 +44,9 @@ chmod +x dtcw
 
 You'll find more informations at the https://doctoolchain.org/docToolchain/v2.0.x/020_tutorial/010_Install.html[docToolchain tutorial].
 
-To preview the files, start a small server from within the terminal:
+We'll use https://arc42.org/[arc42] as template for architecture documentation and can install it as a template in docToolchain.
+
+To preview the files (e.g. html files), start a small server from within the terminal:
 
 [code, bash]
 ----
@@ -46,5 +57,5 @@ Gitpod or Codespaces will now ask you what to do with the opened port. Just clic
 
 === Practical example
 
-We'll use the sample task for the CPSA‑A examination task of https://www.isaqb.org/[iSAQB] https://www.isaqb.org/certifications/examinations/cpsa-advanced-level-examinations/[advanced level] as an example: 
+We'll use the sample task for the CPSA‑A examination task of https://www.isaqb.org/[iSAQB] https://www.isaqb.org/certifications/examinations/cpsa-advanced-level-examinations/[advanced level] as an example:
 https://www.isaqb.org/download/advanced-level-sample-task-of-the-cpsa-a-examination-task/?wpdmdl=11618[BigSpender]
