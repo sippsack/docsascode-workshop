@@ -1,0 +1,59 @@
+== Architecture Communication Canvas
+
+Designed for: +
+Designed by:
+
+[cols="25,25,25,25"]
+|===
+
+4+| *Value Proposition* +
+Major objectives. +
+What value does the system deliver? +
+What are the major business goals?
+{set:cellbgcolor:#8fe4b4}
+
+.4+| *Key Stakeholder* +
+For whom are we creating value? +
+Who is paying for development? +
+Who is paying for operations? +
+Who are our most important customers? +
+Who are our most important contributors?
+{set:cellbgcolor:#8fe4b4}
+.2+| *Core Functions* +
+What are the most important functions of the system? +
+What activities or processes does it offer?
+{set:cellbgcolor:#8fe4b4}
+| *Quality Requirements* +
+Important quality requirements. +
+Speed, scalability, reliability, usability, security, safety, capacity or similar.
+{set:cellbgcolor:#8fe4b4}
+.3+| *Technologies* +
+Important technologies used for development +
+and operation
+{set:cellbgcolor:#94d7ef}
+
+.2+| *Core Decisions - Good or Bad* +
+Which decisions lead to the current state of the system?
+{set:cellbgcolor:#94d7ef}
+
+.2+| *Business Context* +
+What are the most important external interfaces or neighbouring systems?
+{set:cellbgcolor:#8fe4b4}
+
+2+| *Components / Modules* +
+Major building blocks of the system
+{set:cellbgcolor:#94d7ef}
+
+4+| *Core Risks and Missing Information* +
+Potential problems and risks? +
+What information is missing or has gotten lost? +
+What is hindering the team from delivering better value faster?
+{set:cellbgcolor:#ffc7c6}
+
+|===
+
+https://canvas.arc42.org/[Software Architecture Canvas] by Gernot Starke, Patrick Roos and arc42 Contributors is licensed under http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1[Attribution-ShareAlike 4.0 International]
+
+
+
+ 

@@ -1,0 +1,48 @@
+== Architecture Communication Canvas
+
+Designed for: [System Name] +
+Designed by: [Author Name]
+
+[cols="25,25,25,25"]
+|===
+
+4+| *Value Proposition* +
+[Value Proposition]
+{set:cellbgcolor:#8fe4b4}
+
+.4+| *Key Stakeholder* +
+[Key Stakeholder]
+{set:cellbgcolor:#8fe4b4}
+.2+| *Core Functions* +
+[Core Functions]
+{set:cellbgcolor:#8fe4b4}
+| *Quality Requirements* +
+[Quality Requirements]
+{set:cellbgcolor:#8fe4b4}
+.3+| *Technologies* +
+[Technologies]
+{set:cellbgcolor:#94d7ef}
+
+.2+| *Core Decisions - Good or Bad* +
+[Core Decisions]
+{set:cellbgcolor:#94d7ef}
+
+.2+| *Business Context* +
+[Business Context]
+{set:cellbgcolor:#8fe4b4}
+
+2+| *Components / Modules* +
+[Components / Modules]
+{set:cellbgcolor:#94d7ef}
+
+4+| *Core Risks and Missing Information* +
+[Core Risks]
+{set:cellbgcolor:#ffc7c6}
+
+|===
+
+https://canvas.arc42.org/[Software Architecture Canvas] by Gernot Starke, Patrick Roos and arc42 Contributors is licensed under http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1[Attribution-ShareAlike 4.0 International]
+
+
+
+ 
