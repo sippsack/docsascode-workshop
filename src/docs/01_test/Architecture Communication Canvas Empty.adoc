@@ -1,48 +1,98 @@
+++++
+<style>
+.canvas ul {
+    margin-left: 0px;
+    padding-left: 1em;
+    list-style: square;
+}
+.canvas tr:nth-child(1) td:nth-child(1),
+.canvas tr:nth-child(1) td:nth-child(2),
+.canvas tr:nth-child(2) td:nth-child(1),
+.canvas tr:nth-child(3) td:nth-child(1),
+.canvas tr:nth-child(4) td:nth-child(1)
+{
+    background-color: #8fe4b4;
+    border: 1px solid black;
+}
+
+.canvas tr:nth-child(1) td:nth-child(3),
+.canvas tr:nth-child(1) td:nth-child(4),
+.canvas tr:nth-child(4) td:nth-child(2)
+{
+    background-color: #94d7ef;
+    border: 1px solid black;
+}
+
+.canvas tr:nth-child(5) td:nth-child(1),
+.canvas tr:nth-child(5) td:nth-child(2)
+{
+    background-color: #ffc7c6;
+    border: 1px solid black;
+}
+</style>
+++++
+
 == Architecture Communication Canvas
 
 Designed for: [System Name] +
 Designed by: [Author Name]
 
+
+[.canvas]
 [cols="25,25,25,25"]
 |===
 
-4+| *Value Proposition* +
+a| 
+*Value Proposition* +
+
 [Value Proposition]
-{set:cellbgcolor:#8fe4b4}
 
-.4+| *Key Stakeholder* +
-[Key Stakeholder]
-{set:cellbgcolor:#8fe4b4}
-.2+| *Core Functions* +
+.2+a| *Core Functions* +
+
 [Core Functions]
-{set:cellbgcolor:#8fe4b4}
-| *Quality Requirements* +
-[Quality Requirements]
-{set:cellbgcolor:#8fe4b4}
-.3+| *Technologies* +
+
+.3+a| *Core Decisions - Good or Bad* +
+
+Good:
+
+[Core Decisions Good]
+
+Bad:
+
+[Core Decisions Bad]
+
+Strategic:
+
+[Core Decisions Strategic]
+
+.3+a| *Technologies* +
+
 [Technologies]
-{set:cellbgcolor:#94d7ef}
 
-.2+| *Core Decisions - Good or Bad* +
-[Core Decisions]
-{set:cellbgcolor:#94d7ef}
+.2+a| *Key Stakeholder* +
 
-.2+| *Business Context* +
+[Key Stakeholder]
+
+a| *Quality Requirements* +
+
+[Quality Requirements]
+
+2+a| *Business Context* +
+
 [Business Context]
-{set:cellbgcolor:#8fe4b4}
 
-2+| *Components / Modules* +
-[Components / Modules]
-{set:cellbgcolor:#94d7ef}
+2+a| *Components / Modules* +
 
-4+| *Core Risks and Missing Information* +
+[Compontents / Modules]
+
+2+a| *Core Risks* +
+
 [Core Risks]
-{set:cellbgcolor:#ffc7c6}
+
+2+a| *Missing Information* +
+
+[Missing Information]
 
 |===
 
 https://canvas.arc42.org/[Software Architecture Canvas] by Gernot Starke, Patrick Roos and arc42 Contributors is licensed under http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1[Attribution-ShareAlike 4.0 International]
-
-
-
- 
