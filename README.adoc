@@ -22,6 +22,7 @@ To install _docToolchain_, switch to the terminal and run
 ----
 curl -Lo dtcw doctoolchain.github.io/dtcw
 chmod +x dtcw
+./dtcw install java
 ./dtcw install doctoolchain
 ----
 
