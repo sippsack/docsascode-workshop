@@ -184,6 +184,10 @@ Moduleare Dokumentation kann über includes-aufgebaut werden:
 
 == Diagramme
 
+// am besten auf eigenen kroki server umbiegen
+
+:kroki-server-url: https://kroki.io
+
 [plantuml,test,svg]
 ----
 [a]->[b]
