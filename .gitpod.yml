@@ -3,3 +3,7 @@ vscode:
     - asciidoctor.asciidoctor-vscode
     - hediet.vscode-drawio
     - jebbs.plantuml
+
+tasks:
+  - name: open README
+    command: gp open README.adoc

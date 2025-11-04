@@ -1,0 +1,98 @@
+++++
+<style>
+.canvas ul {
+    margin-left: 0px;
+    padding-left: 1em;
+    list-style: square;
+}
+.canvas tr:nth-child(1) td:nth-child(1),
+.canvas tr:nth-child(1) td:nth-child(2),
+.canvas tr:nth-child(2) td:nth-child(1),
+.canvas tr:nth-child(3) td:nth-child(1),
+.canvas tr:nth-child(4) td:nth-child(1)
+{
+    background-color: #8fe4b4;
+    border: 1px solid black;
+}
+
+.canvas tr:nth-child(1) td:nth-child(3),
+.canvas tr:nth-child(1) td:nth-child(4),
+.canvas tr:nth-child(4) td:nth-child(2)
+{
+    background-color: #94d7ef;
+    border: 1px solid black;
+}
+
+.canvas tr:nth-child(5) td:nth-child(1),
+.canvas tr:nth-child(5) td:nth-child(2)
+{
+    background-color: #ffc7c6;
+    border: 1px solid black;
+}
+</style>
+++++
+
+== Architecture Communication Canvas
+
+Designed for: [System Name] +
+Designed by: [Author Name]
+
+
+[.canvas]
+[cols="25,25,25,25"]
+|===
+
+a| 
+*Value Proposition* +
+
+[Value Proposition]
+
+.2+a| *Core Functions* +
+
+[Core Functions]
+
+.3+a| *Core Decisions - Good or Bad* +
+
+Good:
+
+[Core Decisions Good]
+
+Bad:
+
+[Core Decisions Bad]
+
+Strategic:
+
+[Core Decisions Strategic]
+
+.3+a| *Technologies* +
+
+[Technologies]
+
+.2+a| *Key Stakeholder* +
+
+[Key Stakeholder]
+
+a| *Quality Requirements* +
+
+[Quality Requirements]
+
+2+a| *Business Context* +
+
+[Business Context]
+
+2+a| *Components / Modules* +
+
+[Compontents / Modules]
+
+2+a| *Core Risks* +
+
+[Core Risks]
+
+2+a| *Missing Information* +
+
+[Missing Information]
+
+|===
+
+https://canvas.arc42.org/[Software Architecture Canvas] by Gernot Starke, Patrick Roos and arc42 Contributors is licensed under http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1[Attribution-ShareAlike 4.0 International]

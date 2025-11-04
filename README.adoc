@@ -10,7 +10,6 @@ To open this repository you have different options:
 
 image::src/docs/images/codespaces.png[]
 
-
 Next, in gitpod and Github Codespaces there will be a web based visual studio instance with everything pre-installed.
 
 Open this `README.adoc` and press `Ctrl+k` then `v` to activate the AsciiDoc preview.
@@ -29,6 +28,10 @@ https://kroki.io/[Kroki Server]
 
 https://plantuml.com/[PlantUML]
 
+There are some german exercises which can be found at https://doctoolchain.org/empty-workshop/Uebungen.html .
+
+Now open xref:src/docs/diagrams-as-code.adoc[] and start hacking.
+
 '''
 
 === Part II: full software architecture documentation with arc42 and doctToolchain
@@ -39,7 +42,8 @@ To install _docToolchain_, switch to the terminal and run
 ----
 curl -Lo dtcw doctoolchain.github.io/dtcw
 chmod +x dtcw
-./dtcw install
+./dtcw install java
+./dtcw install doctoolchain
 ----
 
 You'll find more informations at the https://doctoolchain.org/docToolchain/v2.0.x/020_tutorial/010_Install.html[docToolchain tutorial].
